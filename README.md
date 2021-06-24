@@ -6,8 +6,9 @@ HEROES OF PYMOLI HOMEWORK CHALLENGE
 
 Prjoect was created to evaluate player statistics for Heroes of Pymoli game
 
+a small Tableau dashboard was added to assist with visualization https://public.tableau.com/app/profile/william.wise1893/viz/FictionalGameGender/AgeandGenderDashboard
 
-This project was used with python code in jypter notewook from the Anaconda platform.   Pulling csv file from resource folder
+This project was used with python code in jypter notewook from the Anaconda platform.   Pulling csv file from resource folder, json file was used for creating the Tableau workbook
 
 
 With Pandas in mind using the code was created to analyize data of players their demographics and purchasing habits.  
@@ -17,7 +18,7 @@ example :
 
 
 
-    TOP SPENDER SET AND DATA FRAME 
+   TOP SPENDER SET AND DATA FRAME 
 
 
     # group by SN
@@ -49,6 +50,8 @@ big_spenders.head(5).style.format({"Average Purchase Price" : "${:,.2f}",
 
 
 using pandas in juypter simnply load the csv data from file location and run data
+
+
 
 
 
